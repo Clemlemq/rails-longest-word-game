@@ -1,0 +1,45 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  font-family: helvetica;
+  font-size: 60px;
+  color: #3A99D9;
+}
+
+.card {
+  display: inline-flex;
+  width: 60px;
+  border : 1px solid #3C89BC;
+  background-color: #3A99D9;
+  justify-content: center;
+  margin: 10px;
+  box-shadow: 3px 3px 0px #98ACCC;
+}
+
+.letter {
+  display: inline-flex;
+  color: white;
+  font-size: 60px;
+  padding: 3px;
+  font-style: helvetica, ;
+}
+
+#btn {
+  background-color: #3A99D9;
+  box-shadow: 3px 3px 0px #98ACCC;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+#form {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.container {
+  text-align: center;
+}
